@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RJB Garage — cars and motorcycles for your next trip. Browse available and previously listed vehicles.">
+    <title>RJB Garage — Find Your Next Ride</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+<main class="root">
+    <div class="wrap">
+        <header class="nav" id="home">
+            <a class="brand" href="#home"><span class="brand-mark">RJB</span><span>RJB <span class="brand-light">GARAGE</span></span></a>
+            <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-links" aria-label="Toggle navigation">☰</button>
+            <nav class="links" id="main-links">
+                <a href="#home">Home</a><a href="#inventory">Inventory</a><a href="#why-us">Why RJB</a><a href="#contact">Contact</a>
+                <a class="nav-cta" href="#inventory">Explore rides ↗</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div>
+                <div class="eyebrow"><span class="dot"></span> Your next ride starts here</div>
+                <h1>Good rides.<br><em>Better deals.</em></h1>
+                <p>Find your next everyday ride or weekend escape at RJB Garage. Straightforward listings, quality vehicles, and a smoother way to buy and sell.</p>
+                <div class="hero-actions"><a class="btn" href="#inventory">Browse inventory <span>↗</span></a><a class="btn-outline" href="#contact">List your vehicle</a></div>
+            </div>
+            <div class="hero-visual">
+                <img src="images/2007 Toyota Innova.webp" alt="Gray Toyota Innova" onerror="this.style.display='none'">
+                <div class="stamp">DRIVE YOUR NEXT CHAPTER</div>
+                <div class="visual-tag"><small>RJB GARAGE · FEATURED STYLE</small><h3>Made for the road ahead.</h3></div>
+            </div>
+        </section>
+
+        <div class="stats">
+            <div class="stat"><strong>Cars + Bikes</strong><span>Four wheels or two, find your fit</span></div>
+            <div class="stat"><strong>Clear listings</strong><span>Know what's available at a glance</span></div>
+            <div class="stat"><strong>Local service</strong><span>Message us to ask about a unit</span></div>
+        </div>
+
+        <section class="section" id="inventory">
+            <div class="section-head"><div><div class="kicker">The garage lineup</div><h2>Find your kind of ride.</h2></div><p>Browse current listings and keep an eye on previously featured units. Availability is clearly marked.</p></div>
+            <div class="filters" aria-label="Filter vehicles">
+                <button class="filter active" data-filter="all">All vehicles</button>
+                <button class="filter" data-filter="available">Available now</button>
+                <button class="filter" data-filter="car">Cars</button>
+                <button class="filter" data-filter="motorcycle">Motorcycles</button>
+                <button class="filter" data-filter="unavailable">Unavailable</button>
+            </div>
+            <div class="grid" id="vehicle-grid">
+<article class="vehicle " data-kind="car" data-status="available" data-name="2007 Toyota Innova" data-type="Family car · MPV" data-description="Practical space for family days, errands, and road trips. Classic utility with room for the whole crew." data-image="images/2007 Toyota Innova.webp" data-alt="Gray Toyota Innova exterior reference" data-number="01 / CAR" data-specs="[&quot;2007 model&quot;,&quot;Gray / Silver&quot;,&quot;Multi-purpose&quot;]">
+<div class="photo"><img src="images/2007 Toyota Innova.webp" alt="Gray Toyota Innova exterior reference" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/900x600/252b23/e9f0df?text=RJB+Garage';"><span class="status ">Available</span><span class="photo-number">01 / CAR</span></div>
+<div class="vehicle-body"><div class="type">Family car · MPV</div><h3>2007 Toyota Innova</h3><p>Practical space for family days, errands, and road trips. Classic utility with room for the whole crew.</p><div class="specs"><span>2007 model</span><span>Gray / Silver</span><span>Multi-purpose</span></div><div class="card-foot"><span class="availability">● Available for inquiry</span><button class="vehicle-details" type="button" data-open-vehicle aria-label="View details for 2007 Toyota Innova">View details ↗</button></div></div></article>
+<article class="vehicle " data-kind="motorcycle" data-status="available" data-name="2022 Yamaha Mio Soul i 125S" data-type="Scooter · Everyday escape" data-description="Find Your Trip model. A sporty, nimble scooter for city commutes, quick errands, and spontaneous rides." data-image="images/2022 Yamaha Mio Soul I 125s.jpg" data-alt="Yamaha Mio Soul i 125S Find Your Trip model reference" data-number="02 / MOTO" data-specs="[&quot;2022 model&quot;,&quot;125cc class&quot;,&quot;Automatic&quot;]">
+<div class="photo"><img src="images/2022 Yamaha Mio Soul I 125s.jpg" alt="Yamaha Mio Soul i 125S Find Your Trip model reference" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/900x600/252b23/e9f0df?text=RJB+Garage';"><span class="status ">Available</span><span class="photo-number">02 / MOTO</span></div>
+<div class="vehicle-body"><div class="type">Scooter · Everyday escape</div><h3>2022 Yamaha Mio Soul i 125S</h3><p>Find Your Trip model. A sporty, nimble scooter for city commutes, quick errands, and spontaneous rides.</p><div class="specs"><span>2022 model</span><span>125cc class</span><span>Automatic</span></div><div class="card-foot"><span class="availability">● Available for inquiry</span><button class="vehicle-details" type="button" data-open-vehicle aria-label="View details for 2022 Yamaha Mio Soul i 125S">View details ↗</button></div></div></article>
+<article class="vehicle unavailable" data-kind="motorcycle" data-status="unavailable" data-name="2011 Honda CB 110" data-type="Commuter motorcycle" data-description="Blue · Previously listed. This unit is currently not available for purchase." data-image="images/2011 Honda CB 110.jpg" data-alt="Commuter motorcycle representative image" data-number="03 / MOTO" data-specs="[&quot;2011 model&quot;,&quot;Blue&quot;,&quot;Honda&quot;]">
+<div class="photo"><img src="images/2011 Honda CB 110.jpg" alt="Commuter motorcycle representative image" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/900x600/252b23/e9f0df?text=RJB+Garage';"><span class="status sold">Unavailable</span><span class="photo-number">03 / MOTO</span></div>
+<div class="vehicle-body"><div class="type">Commuter motorcycle</div><h3>2011 Honda CB 110</h3><p>Blue · Previously listed. This unit is currently not available for purchase.</p><div class="specs"><span>2011 model</span><span>Blue</span><span>Honda</span></div><div class="card-foot"><span class="availability">Currently unavailable</span><button class="vehicle-details" type="button" data-open-vehicle aria-label="View details for 2011 Honda CB 110">View details ↗</button></div><div class="unavailable-note">Ask us about similar vehicles or upcoming listings.</div></div></article>
+<article class="vehicle unavailable" data-kind="car" data-status="unavailable" data-name="2015 Mitsubishi Montero Sport" data-type="SUV · Adventure" data-description="Brown · Previously listed. This unit is currently not available for purchase." data-image="images/2015 Mitsubishi Montero Sport.jpg" data-alt="SUV representative image" data-number="04 / SUV" data-specs="[&quot;2015 model&quot;,&quot;Brown&quot;,&quot;Mitsubishi&quot;]">
+<div class="photo"><img src="images/2015 Mitsubishi Montero Sport.jpg" alt="SUV representative image" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/900x600/252b23/e9f0df?text=RJB+Garage';"><span class="status sold">Unavailable</span><span class="photo-number">04 / SUV</span></div>
+<div class="vehicle-body"><div class="type">SUV · Adventure</div><h3>2015 Mitsubishi Montero Sport</h3><p>Brown · Previously listed. This unit is currently not available for purchase.</p><div class="specs"><span>2015 model</span><span>Brown</span><span>Mitsubishi</span></div><div class="card-foot"><span class="availability">Currently unavailable</span><button class="vehicle-details" type="button" data-open-vehicle aria-label="View details for 2015 Mitsubishi Montero Sport">View details ↗</button></div><div class="unavailable-note">Ask us about similar vehicles or upcoming listings.</div></div></article>
+            </div>
+        </section>
+
+        <dialog class="vehicle-dialog" id="vehicle-dialog" aria-labelledby="dialog-vehicle-name">
+            <div class="dialog-header">
+                <span class="kicker">Vehicle details</span>
+                <button class="dialog-close" type="button" data-close-dialog aria-label="Close vehicle details">×</button>
+            </div>
+            <div class="dialog-content">
+                <div class="dialog-vehicle">
+                    <img class="dialog-image" src="" alt="">
+                    <div class="dialog-vehicle-info">
+                        <div class="type" data-dialog-type></div>
+                        <h2 id="dialog-vehicle-name" data-dialog-name></h2>
+                        <span class="dialog-status" data-dialog-status></span>
+                        <p class="dialog-description" data-dialog-description></p>
+                        <div class="specs dialog-specs" data-dialog-specs></div>
+                        <p class="dialog-number" data-dialog-number></p>
+                    </div>
+                </div>
+                <div class="dialog-inquiry">
+                    <div class="kicker">Vehicle inquiry</div>
+                    <p>Interested in this vehicle? Leave your contact details and question, and our team can follow up.</p>
+                    <form class="mailto-inquiry-form" data-mailto-form>
+                        <input type="hidden" name="interest" data-dialog-interest>
+                        <div class="form-grid">
+                            <div class="field"><label for="dialog-name">Your name</label><input id="dialog-name" name="name" placeholder="Full name" required maxlength="120"></div>
+                            <div class="field"><label for="dialog-contact">Contact number</label><input id="dialog-contact" name="contact" placeholder="09XX XXX XXXX" required maxlength="40"></div>
+                            <div class="field full"><label for="dialog-message">Your question</label><textarea id="dialog-message" name="message" maxlength="2000" placeholder="Ask about availability, details, or arranging a conversation..."></textarea></div>
+                        </div>
+                        <button class="btn form-submit" type="submit">Send inquiry ↗</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+
+        <section class="banner">
+            <div><div class="kicker kicker-dark">Selling a vehicle?</div><h2>Make room for your next chapter.</h2><p>Have a car or motorcycle to sell? Tell us a little about it and the RJB Garage team can follow up about listing details.</p></div>
+            <a class="btn btn-dark" href="#contact">Start an inquiry ↗</a>
+        </section>
+
+        <section class="section" id="why-us">
+            <div class="kicker">The RJB difference</div><h2>Simple from start to drive.</h2>
+            <div class="why">
+                <div class="why-card"><div class="icon">↗</div><h3>Listings that make sense</h3><p>Easy-to-scan details and clear availability, so you can focus on the vehicles that matter to you.</p></div>
+                <div class="why-card"><div class="icon">✓</div><h3>Ask before you commit</h3><p>Send a question about a vehicle, arrange a conversation, and get the details you need before moving forward.</p></div>
+                <div class="why-card"><div class="icon">⌁</div><h3>For every kind of trip</h3><p>From a practical family car to an agile scooter, the garage brings different ways to get moving together.</p></div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-copy"><div class="kicker">Get in touch</div><h2>Let's talk<br>about your next ride.</h2><p>Interested in an available unit or want to list your own vehicle? Send an inquiry and include the model you're asking about.</p><p><strong>RJB Garage</strong><br>Automotive buy &amp; sell · Cars and motorcycles</p></div>
+            <div class="contact-box">
+                <form id="inquiry-form" class="mailto-inquiry-form" data-mailto-form>
+                    <div class="form-grid">
+                        <div class="field"><label for="name">Your name</label><input id="name" name="name"  placeholder="Full name" required maxlength="120"></div>
+                        <div class="field"><label for="contact-number">Contact number</label><input id="contact-number" name="contact"  placeholder="09XX XXX XXXX" required maxlength="40"></div>
+                        <div class="field full"><label for="interest">I'm interested in</label><select id="interest" name="interest" required>
+                            <option value="2007 Toyota Innova">2007 Toyota Innova</option>
+                            <option value="2022 Yamaha Mio Soul i 125S Find Your Trip">2022 Yamaha Mio Soul i 125S Find Your Trip</option>
+                            <option value="Listing my own vehicle">Listing my own vehicle</option>
+                            <option value="Other / upcoming inventory">Other / upcoming inventory</option>
+                        </select></div>
+                        <div class="field full"><label for="message">Message</label><textarea id="message" name="message" maxlength="2000" placeholder="Ask about availability, details, or selling your vehicle..."></textarea></div>
+                    </div>
+                    <button class="btn form-submit" type="submit">Send inquiry ↗</button>
+                    <p class="form-note">Your email app will open with the inquiry prepared. Review and send it there.</p>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <a class="brand" href="#home"><span class="brand-mark">RJB</span><span>RJB <span class="brand-light">GARAGE</span></span></a>
+            <span>© 2026 RJB Garage. Find your next road.</span>
+            <div class="footer-links"><a href="#inventory">Inventory</a><a href="#contact">Contact</a><a href="#home">Back to top ↑</a></div>
+        </footer>
+    </div>
+</main>
+</body>
+</html>
